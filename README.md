@@ -1,5 +1,4 @@
-# 🧪 rick-voice
-
+# 🧪 rick-voice [![PyPI version](https://badge.fury.io/py/rick-voice.svg)](https://badge.fury.io/py/rick-voice)
 **Give any bot the voice of Rick Sanchez.**
 
 Turn text into Rick Sanchez speech with one line of Python. Works with OpenClaw, Telegram bots, Discord bots, or anything else.
