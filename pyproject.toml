@@ -7,16 +7,15 @@ name = "rick-voice"
 version = "0.1.0"
 description = "Give any bot the voice of Rick Sanchez. Pluggable TTS with Fish Audio, ElevenLabs, and local support."
 readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
 requires-python = ">=3.9"
 authors = [
-    {name = "Your Name", email = "you@example.com"},
+    {name = "Matthew Pearce", email = "matt@mattp.eu"},
 ]
 keywords = ["tts", "rick-sanchez", "rick-and-morty", "voice", "openclaw", "telegram"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Topic :: Multimedia :: Sound/Audio :: Speech",
 ]
