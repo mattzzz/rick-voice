@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rick-voice"
+version = "0.1.0"
+description = "Give any bot the voice of Rick Sanchez. Pluggable TTS with Fish Audio, ElevenLabs, and local support."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Your Name", email = "you@example.com"},
+]
+keywords = ["tts", "rick-sanchez", "rick-and-morty", "voice", "openclaw", "telegram"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+fish = ["fish-audio-sdk[utils]>=1.0.0"]
+elevenlabs = ["elevenlabs>=1.0.0"]
+all = ["fish-audio-sdk[utils]>=1.0.0", "elevenlabs>=1.0.0"]
+dev = ["pytest", "ruff"]
+
+[project.scripts]
+rick-voice = "rick_voice.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/yourname/rick-voice"
+Repository = "https://github.com/yourname/rick-voice"
+Issues = "https://github.com/yourname/rick-voice/issues"
+
+[tool.setuptools.packages.find]
+include = ["rick_voice*"]
