@@ -33,9 +33,9 @@ dev = ["pytest", "ruff"]
 rick-voice = "rick_voice.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/yourname/rick-voice"
-Repository = "https://github.com/yourname/rick-voice"
-Issues = "https://github.com/yourname/rick-voice/issues"
+Homepage = "https://github.com/mattzzz/rick-voice"
+Repository = "https://github.com/mattzzz/rick-voice"
+Issues = "https://github.com/mattzzz/rick-voice/issues"
 
 [tool.setuptools.packages.find]
 include = ["rick_voice*"]
