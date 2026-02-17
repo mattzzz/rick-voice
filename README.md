@@ -10,8 +10,6 @@ rick = RickVoice()
 rick.play("I turned myself into a pickle, Morty!")
 ```
 
-https://github.com/user-attachments/assets/demo-video-placeholder
-
 ---
 
 ## Features
